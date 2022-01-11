@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #030303;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 7rem;
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    header .logo{
+        width: 35%;
+    }
+        header .logo img{
+            max-width: 100%;
+        }
+
+    header .search{
+        width: 65%;
+    }
+        header .search input{
+            height: 45px;
+            width: 100%;
+            font-size: 22px;
+        }
+    
+    .container{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: stretch;
+    }
+        .container .list-videos{
+            background-color: antiquewhite;
+            width: 35%;
+            padding: 10px;
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        .container .list-videos .item{
+            background-color: black;
+            display: flex;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .container .list-videos .item img{
+            width: 15rem;
+            height: 8rem;
+        }
+
+        .container .list-videos .item .title-video{
+            padding: 10px;
+        }
+
+        .container .list-videos .item .title-video h2{
+            font-size: 14px;
+        }
+
+        .container .video{
+            margin-left: 10px;
+            margin-right: 20px;
+            background-color: antiquewhite;
+            width: 65%;
+            display: flex;
+        }
